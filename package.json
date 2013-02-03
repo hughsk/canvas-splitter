@@ -1,0 +1,28 @@
+{
+  "name": "canvas-splitter",
+  "version": "0.0.1",
+  "description": "Split a big canvas element into a grid of lots of little canvas elements",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/browserify demo/index.js -o demo/bundle.js && serve demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/canvas-splitter.git"
+  },
+  "keywords": [
+    "canvas",
+    "split",
+    "grid",
+    "square",
+    "table",
+    "browserify"
+  ],
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "~1.17.3",
+    "serve": "~1.1.0",
+    "lut": "0.0.2"
+  }
+}
