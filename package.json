@@ -1,6 +1,6 @@
 {
   "name": "canvas-splitter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Split a big canvas element into a grid of lots of little canvas elements",
   "main": "index.js",
   "scripts": {
