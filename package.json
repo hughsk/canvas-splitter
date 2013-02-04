@@ -23,6 +23,6 @@
   "devDependencies": {
     "browserify": "~1.17.3",
     "serve": "~1.1.0",
-    "lut": "0.0.2"
+    "lut": "~0.1.0"
   }
 }

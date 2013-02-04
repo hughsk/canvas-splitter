@@ -1,10 +1,10 @@
 var splitter = require('../')
   , lut = require('lut')
 
-var big = lut(32, 64, 32)
+var big = lut(32, 32, 128)
 
 var little = splitter(big, {
-  width: 32, height: 32, cols: 64, rows: 1
+  width: 32, height: 32, cols: 128, rows: 1
 })
 
 little.forEach(function(canvas) {
