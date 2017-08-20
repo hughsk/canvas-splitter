@@ -1,5 +1,7 @@
 # canvas-splitter #
 
+**Deprecated: this is more efficient by not creating multiple canvas contexts.**
+
 Split a big canvas element into a grid of lots of little canvas elements.
 Useful for spritemaps and the like.
 
